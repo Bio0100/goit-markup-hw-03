@@ -146,9 +146,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.03em;
-text-align: left;
+color: var(--second-color);
 
-  color: var(--second-color);
 }
 .text {
   line-height: 1.9;
@@ -191,6 +190,8 @@ li {
 }
 footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .button-cont {
@@ -266,10 +267,13 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
   cursor: pointer;
 }
 .work-m {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
   color: var(--color-text);
 }
 .hero-style {
@@ -347,27 +351,26 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 .card-set {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
-
 .name-main {
   display: flex;
   margin-bottom: 30px;
   text-align: center;
   justify-content: space-around;
 }
-.work-img {
+.
+-work {
+  padding: 0;
   display: flex;
   justify-content: space-between;
-}
-.main-work {
-  padding: 0;
 }
 
 .list-m {
   padding: 0;
 }
 
-.list {
+.list-m {
   display: flex;
   flex-basis: calc(100% / 4);
   flex-wrap: wrap;
@@ -388,26 +391,21 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 
 .contact {
   padding: 0;
+  padding-bottom: 9px;
+
 }
 
-.struducture {
-  max-width: 1200px;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 18px;
-}
-
-.meta {
+.metas{
   display: flex;
   flex-basis: calc(100% / 9);
   flex-wrap: wrap;
   padding: 0;
   list-style: none;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-align: left;
-  align-items: flex-start;
   cursor: pointer;
+  gap: 30px;
+  
 }
 .list-teams{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -420,12 +418,27 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
 }
 .project-text{
   padding: 20px 24px;
-}
-.meta-photo{
-  margin-bottom: 30px;
   border: 1px solid #EEEE;
 border-radius: 0px 0px 4px 4px;
 }
+/* .meta-photo{
+  margin-bottom: 30px;
+  max-width: 370px;
+} */
 .header{
-  border: 1px solid #EEEE;
+  border-bottom: 1px solid #EEEE;
+}
+.logo-footer2, .logo-footer3{
+  padding-bottom: 9px;
+}
+.name-m{
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.item-peculiarities{
+  width: 270px;
+  display: list-item;
+}
+.container-peculiarities section{
+  padding: 94px 0;
 }
